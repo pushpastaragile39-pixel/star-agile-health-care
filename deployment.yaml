@@ -13,7 +13,7 @@ spec:
         app: healthcare
     spec:
       containers:
-      - name: healthcare-container
-        image: pushpakumari1/myimage:IMAGE_TAG
+      - name: healthcare
+        image: pushpakumari1/myimage:23
         ports:
-        - containerPort: 8081
+        - containerPort: 8080
